@@ -1,0 +1,39 @@
+/* Allgemeine Stile */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Root Variablen für Farben */
+:root {
+  --button-hintergrundfarbe: rgba(165, 159, 141, 1);
+  --button-textfarbe: rgba(242, 241, 238, 1);
+  --color-background-light: rgba(234, 231, 220, 1);
+  --color-background-lighter: rgba(244, 243, 239, 1);
+  --color-border: rgba(209, 207, 199, 1);
+  --color-finanzen-bg1: rgba(244, 243, 239, 0.69);
+  --color-finanzen-bg2: rgba(209, 207, 199, 0.75);
+  --color-finanzen-icon: rgba(194, 176, 127, 1);
+  --color-icon: rgba(206, 188, 140, 1);
+  --color-icon-stroke: rgba(74, 74, 74, 1);
+  --color-krypto-bg1: rgba(206, 200, 184, 0.71);
+  --color-krypto-bg2: rgba(243, 232, 200, 0.73);
+  --color-krypto-icon: rgba(213, 196, 145, 1);
+  --color-link: rgba(65, 63, 56, 1);
+  --color-programmieren-bg1: rgba(242, 241, 238, 0.67);
+  --color-programmieren-bg2: rgba(234, 231, 220, 0.71);
+  --color-shadow: rgba(74, 74, 74, 0.2);
+  --color-shadow-hover: rgba(74, 74, 74, 0.3);
+  --color-text-dark: rgba(62, 61, 57, 1);
+  --color-text-medium: rgba(74, 74, 74, 1);
+  --container-farbe: rgba(36, 35, 33, 0.77);
+  --haupt-farbe: rgba(165, 159, 141, 1);
+  --haupt-hintergrundfarbe: rgba(242, 241, 238, 1);
+  --hover-farbe: rgba(139, 133, 120, 1);
+  --schatten-farbe: rgba(62, 61, 57, 1);
+  --sekundär-farbe: rgba(206, 200, 184, 1);
+  --text-farbe: rgba(177, 177, 177, 1);
+}
